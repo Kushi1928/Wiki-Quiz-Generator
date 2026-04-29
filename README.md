@@ -1,11 +1,11 @@
-# 🧠 Wiki Quiz Generator — AI-Powered Wikipedia Quiz Generator
+# Wiki Quiz Generator — AI-Powered Wikipedia Quiz Generator
 
 **Wiki Quiz Generator** is a full-stack web application that automatically generates quiz questions from Wikipedia articles using Artificial Intelligence (AI).  
 It bridges the gap between knowledge and interactivity by transforming static Wikipedia content into dynamic, self-assessing quizzes.  
 
 ---
 
-## 🧾 Abstract
+##  Abstract
 
 In today’s digital era, online information sources like **Wikipedia** serve as massive repositories of knowledge. However, passive reading often leads to low retention.  
 Wiki Quiz Generator addresses this by introducing an **AI-powered learning companion** that automatically generates **multiple-choice quizzes** from Wikipedia content, enabling users to **test their understanding instantly**.
@@ -14,7 +14,7 @@ The project leverages **FastAPI** for backend logic, **React** for an interactiv
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 - Automate quiz generation from **Wikipedia** URLs using AI.  
 - Allow users to **view, store, and retake quizzes** anytime.  
@@ -24,7 +24,7 @@ The project leverages **FastAPI** for backend logic, **React** for an interactiv
 
 ---
 
-## 🧩 Problem Statement
+##  Problem Statement
 
 Traditional learning platforms rely heavily on static reading material and manual question preparation.  
 Learners often lack immediate tools to assess how much they understood from an article.  
@@ -32,7 +32,7 @@ Creating quizzes manually is time-consuming and subjective.
 
 ---
 
-## 💡 Proposed Solution
+##  Proposed Solution
 
 Wiki Quiz Generator automates the entire quiz creation process:
 1. Users provide a **Wikipedia article URL**.  
@@ -43,7 +43,7 @@ Wiki Quiz Generator automates the entire quiz creation process:
 
 ---
 
-## ⚙️ System Architecture
+##  System Architecture
 
 ```
 
@@ -65,7 +65,7 @@ Frontend → Displays quiz, history, and score
 
 ---
 
-## 🧰 Technology Stack
+##  Technology Stack
 
 | Layer | Technology |
 |-------|-------------|
@@ -79,7 +79,7 @@ Frontend → Displays quiz, history, and score
 
 ---
 
-## 📁 Folder Structure
+##  Folder Structure
 
 ```
 
@@ -134,9 +134,9 @@ Wiki Quiz Generator/
 
 ---
 
-## ⚙️ Installation & Setup Guide
+##  Installation & Setup Guide
 
-### 🧱 Prerequisites
+###  Prerequisites
 - Python 3.10+
 - Node.js 18+
 - npm or yarn
@@ -144,7 +144,7 @@ Wiki Quiz Generator/
 
 ---
 
-### 🧩 Backend Setup (FastAPI)
+###  Backend Setup (FastAPI)
 ```bash
 cd backend
 python -m venv venv
@@ -171,7 +171,7 @@ Visit: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
 ---
 
-### 💻 Frontend Setup (React)
+###  Frontend Setup (React)
 
 ```bash
 cd frontend
@@ -183,7 +183,7 @@ Frontend URL → [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🔗 API Endpoints Overview
+##  API Endpoints Overview
 
 | Method   | Endpoint                 | Description                           |
 | -------- | ------------------------ | ------------------------------------- |
@@ -195,7 +195,7 @@ Frontend URL → [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🧠 AI Quiz Generation Workflow
+##  AI Quiz Generation Workflow
 
 1. **Scraper Module (`scraper.py`)**
 
@@ -225,7 +225,7 @@ Frontend URL → [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 📊 Database Schema (SQLite)
+##  Database Schema (SQLite)
 
 | Column            | Type     | Description                    |
 | ----------------- | -------- | ------------------------------ |
@@ -242,7 +242,7 @@ Frontend URL → [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🖥️ Frontend Overview
+##  Frontend Overview
 
 ### Key Components
 
@@ -255,7 +255,7 @@ Frontend URL → [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🧪 Example Quiz Entry
+##  Example Quiz Entry
 
 ```json
 {
@@ -279,17 +279,17 @@ Frontend URL → [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
-* 🔐 User authentication & personalized dashboard
-* 🌐 Multi-language quiz generation
-* 📊 Quiz analytics & progress tracking
-* 🧩 Adaptive difficulty levels
-* 📥 Export quizzes as PDF or share links
+* User authentication & personalized dashboard
+* Multi-language quiz generation
+* Quiz analytics & progress tracking
+* Adaptive difficulty levels
+* Export quizzes as PDF or share links
 
 ---
 
-## 🧑‍💻 Developer Information
+## Developer Information
 
 **Project Title:** Wiki Quiz Generator – AI-Powered Wikipedia Quiz Generator
 **Developer:** G Sai Archan
@@ -301,14 +301,14 @@ Frontend URL → [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 
 Wiki Quiz Generator successfully demonstrates how AI can transform traditional learning into an interactive, assessment-driven experience.
 By combining **AI comprehension**, **FastAPI efficiency**, and **React interactivity**, the project delivers a seamless and intelligent quiz-generation system that can scale into educational platforms.
 
 ---
 
-## ❤️ Acknowledgements
+##  Acknowledgements
 
 * [FastAPI](https://fastapi.tiangolo.com)
 * [React.js](https://react.dev)
@@ -318,7 +318,7 @@ By combining **AI comprehension**, **FastAPI efficiency**, and **React interacti
 
 ---
 
-## 🧾 License
+##  License
 
 MIT License © 2026 — G Sai Archan
 Feel free to fork, modify, and share with attribution.
